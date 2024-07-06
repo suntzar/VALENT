@@ -20,9 +20,10 @@
   commandn = command
   commandn = tonumber(commandn)
 
-  if commandn == 0 or commandn == 00 or command == 'exit' then os.execute('clear') print(ascii1..none) os.exit() end
-  if commandn == 1 or commandn == 01 then pageA1() end
+  if commandn == 00 or command == 'exit' then os.execute('clear') print(ascii1..none) os.exit() end
+  if commandn == 01 then pageA1() end
 
+  home()
  end
 
  function pageA1()
@@ -42,34 +43,34 @@
   commandn = command 
   commandn = tonumber(commandn)
 
-  if commandn == 25 or commandn == 25 then all = true end
+  if commandn == 25 then all = true end
 
-  if commandn == 1  or commandn == 01 or all then os.execute('clear') os.execute('apt update    ') os.execute('apt upgrade -y') os.execute('pkg update    ') os.execute('pkg upgrade -y') end
-  if commandn == 2  or commandn == 02 or all then os.execute('clear') os.execute('apt install python -y') end 
-  if commandn == 3  or commandn == 03 or all then os.execute('clear') os.execute('apt install python2 -y') end 
-  if commandn == 4  or commandn == 04 or all then os.execute('clear') os.execute('apt install python3 -y') end
-  if commandn == 5  or commandn == 05 or all then os.execute('clear') os.execute('apt install python-dev -y') end
-  if commandn == 6  or commandn == 06 or all then os.execute('clear') os.execute('apt install php -y') end
-  if commandn == 7  or commandn == 07 or all then os.execute('clear') os.execute('apt install java -y') end
-  if commandn == 8  or commandn == 08 or all then os.execute('clear') os.execute('apt install git -y') end
-  if commandn == 9  or commandn == 09 or all then os.execute('clear') os.execute('apt install perl -y') end
-  if commandn == 10 or commandn == 10 or all then os.execute('clear') os.execute('apt install bash -y') end
-  if commandn == 11 or commandn == 11 or all then os.execute('clear') os.execute('apt install lua54 -y') end
-  if commandn == 12 or commandn == 12 or all then os.execute('clear') os.execute('apt install curl -y') end
-  if commandn == 13 or commandn == 13 or all then os.execute('clear') os.execute('apt install openssl -y') end
-  if commandn == 14 or commandn == 14 or all then os.execute('clear') os.execute('apt install openssh -y') end
-  if commandn == 15 or commandn == 15 or all then os.execute('clear') os.execute('apt install wget -y') end
-  if commandn == 16 or commandn == 16 or all then os.execute('clear') os.execute('apt install clang -y') end
-  if commandn == 17 or commandn == 17 or all then os.execute('clear') os.execute('apt install nmap -y') end
-  if commandn == 18 or commandn == 18 or all then os.execute('clear') os.execute('apt install w3m -y') end
-  if commandn == 19 or commandn == 19 or all then os.execute('clear') os.execute('apt install hydra -y') end
-  if commandn == 20 or commandn == 20 or all then os.execute('clear') os.execute('apt install ruby -y') end
-  if commandn == 21 or commandn == 21 or all then os.execute('clear') os.execute('apt install macchanger') end
-  if commandn == 22 or commandn == 22 or all then os.execute('clear') os.execute('apt install host -y') end
-  if commandn == 23 or commandn == 23 or all then os.execute('clear') os.execute('apt install dnsutils') end
-  if commandn == 24 or commandn == 24 or all then os.execute('clear') os.execute('apt install coreutils -y') end
+  if commandn == 01 or all then os.execute('clear') os.execute('apt update    ') os.execute('apt upgrade -y') os.execute('pkg update    ') os.execute('pkg upgrade -y') end
+  if commandn == 02 or all then os.execute('clear') os.execute('apt install python -y') end 
+  if commandn == 03 or all then os.execute('clear') os.execute('apt install python2 -y') end 
+  if commandn == 04 or all then os.execute('clear') os.execute('apt install python3 -y') end
+  if commandn == 05 or all then os.execute('clear') os.execute('apt install python-dev -y') end
+  if commandn == 06 or all then os.execute('clear') os.execute('apt install php -y') end
+  if commandn == 07 or all then os.execute('clear') os.execute('apt install java -y') end
+  if commandn == 08 or all then os.execute('clear') os.execute('apt install git -y') end
+  if commandn == 09 or all then os.execute('clear') os.execute('apt install perl -y') end
+  if commandn == 10 or all then os.execute('clear') os.execute('apt install bash -y') end
+  if commandn == 11 or all then os.execute('clear') os.execute('apt install lua54 -y') end
+  if commandn == 12 or all then os.execute('clear') os.execute('apt install curl -y') end
+  if commandn == 13 or all then os.execute('clear') os.execute('apt install openssl -y') end
+  if commandn == 14 or all then os.execute('clear') os.execute('apt install openssh -y') end
+  if commandn == 15 or all then os.execute('clear') os.execute('apt install wget -y') end
+  if commandn == 16 or all then os.execute('clear') os.execute('apt install clang -y') end
+  if commandn == 17 or all then os.execute('clear') os.execute('apt install nmap -y') end
+  if commandn == 18 or all then os.execute('clear') os.execute('apt install w3m -y') end
+  if commandn == 19 or all then os.execute('clear') os.execute('apt install hydra -y') end
+  if commandn == 20 or all then os.execute('clear') os.execute('apt install ruby -y') end
+  if commandn == 21 or all then os.execute('clear') os.execute('apt install macchanger') end
+  if commandn == 22 or all then os.execute('clear') os.execute('apt install host -y') end
+  if commandn == 23 or all then os.execute('clear') os.execute('apt install dnsutils') end
+  if commandn == 24 or all then os.execute('clear') os.execute('apt install coreutils -y') end
 
-  if commandn == 00 or commandn == 00 or command == 'back' then home()   end 
+  if commandn == 00 or command == 'back' then home()   end 
      pageA1()
 
  end
