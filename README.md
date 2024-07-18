@@ -7,7 +7,7 @@ $ apt install git
 
 $ apt install lua54
 
-$ git clone https://github.com/IILI7II/VALENT.it
+$ git clone https://github.com/suntzar/VALENT.git
 
 $ cd VALENT
 
